@@ -1,0 +1,16 @@
+.PageBackground {
+    background-color: #3E3E3E;
+}
+
+.NavBar {
+    background-color: #242424;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+

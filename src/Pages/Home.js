@@ -1,8 +1,14 @@
 import React from 'react'
 
+
 function Home(){
+    
     return(
-        <div>Home Page</div>
+        <div style={{height: (window.innerHeight * 0.95)}} className="PageBackground">
+            
+        <div>Home page</div>
+
+        </div>
     );
 }
 

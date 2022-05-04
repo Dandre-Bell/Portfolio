@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects(){
     return(
-        <div>Projects Page</div>
+        <div style={{height: (window.innerHeight * 0.95)}} className="PageBackground">Projects Page</div>
     );
 }
 

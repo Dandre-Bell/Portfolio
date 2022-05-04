@@ -2,7 +2,7 @@ import React from 'react'
 
 function Error(){
     return(
-        <div>Error Page</div>
+        <div style={{height: (window.innerHeight * 0.95)}} className="PageBackground">Error Page</div>
     );
 }
 

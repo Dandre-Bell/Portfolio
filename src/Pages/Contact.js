@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact(){
     return(
-        <div>Contact Page</div>
+        <div style={{height: (window.innerHeight * 0.95)}} className="PageBackground">Contact Page</div>
     );
 }
 
