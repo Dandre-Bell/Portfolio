@@ -1,5 +1,7 @@
 .PageBackground {
     background-color: #3E3E3E;
+    display: flex;
+    align-items: center;
 }
 
 .NavBar {
