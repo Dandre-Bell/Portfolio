@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #api links
-src\Controllers\EndPoints.js
+src/Controllers/EndPoints.js
