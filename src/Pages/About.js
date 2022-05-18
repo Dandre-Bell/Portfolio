@@ -4,7 +4,7 @@ import '../Styles/AboutBoxStyle.css'
 
 function About(){
     const [text, setText] = useState('')
-    useEffect(() => {setText(GetBio())}, []);
+    useEffect(() => {GetBio().then(value => {setText(value)})}, []);
 
     return(
         <div style={{height: (window.innerHeight * 0.95)}} className="PageBackground">
